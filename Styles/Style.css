@@ -6,7 +6,7 @@
           box-sizing: border-box;
 }
 
-main {
+header {
   background: url(../images/desktop/image-header.jpg);
   background-size: cover;
   background-repeat: no-repeat;
