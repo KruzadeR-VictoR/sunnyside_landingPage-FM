@@ -526,11 +526,20 @@ header {
 .Testimonials .clients .one .text,
 .Testimonials .clients .two .text,
 .Testimonials .clients .three .text {
+  width: 80%;
   font-size: 900;
   font-family: "Barlow", sans-serif;
   text-align: center;
   line-height: 1.5em;
   color: #5a636c;
+}
+
+@media screen and (max-width: 500px) {
+  .Testimonials .clients .one .text,
+  .Testimonials .clients .two .text,
+  .Testimonials .clients .three .text {
+    width: 100%;
+  }
 }
 
 .Testimonials .clients .one .profile,
